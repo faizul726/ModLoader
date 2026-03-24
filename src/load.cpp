@@ -100,8 +100,9 @@ void OpenConsole() {
     system("chcp 65001>nul");
 
     FILE *fp = nullptr;
-    freopen_s(&fp, "CONOUT$", "w", stdout);
-    freopen_s(&fp, "CONOUT$", "w", stderr);
+    
+    freopen_s(&fp, "output.txt", "w", stdout);
+    freopen_s(&fp, "output.txt", "w", stderr);
     freopen_s(&fp, "CONIN$", "r", stdin);
 
     setvbuf(stdout, nullptr, _IONBF, 0);
