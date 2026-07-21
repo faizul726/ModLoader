@@ -1,3 +1,6 @@
+### As of Jul 21, 2026
+I have decided to stop maintaining this because I don't like how BRD is maintained nowadays. You should still be able to download the `WINHTTP.dll` from releases.
+
 # Mod Loader
 
 ## Overview
